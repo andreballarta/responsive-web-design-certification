@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you so much for buying one of our consulting packages. Please, feel free to fill this quick and short form.</p>
+    <form id="survey-form">
+      <fieldset>
+      <legend><b>About you</b></legend>
+      <label for="name" id="name-label">Full Name (mandatory):</label>
+      <input required id="name" type="text" placeholder="e.g. Juan Sánchez">
+      <br>
+      <label for="email" id="email-label">Email (mandatory):</label>
+      <input required id="email" type="email" placeholder="e.g. sample@email.com">
+      <br>
+      <label for="number" id="number-label">Age (optional):</label>
+      <input id="number" type="number" min="1" max="120" placeholder="--">
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>Question 1</b></legend>
+      <p><i>What type of package did you purchase?</i></p>
+      <select id="dropdown" name="package">
+        <option selected disabled hidden>Select your package</option>
+        <option value="full-time">Full-time package</option>
+        <option value="part-time">Part-time package</option>
+        <option value="limited-tickets">Limited tickets package</option>
+      </select>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>Question 2:</b></legend>
+      <p><i>Would you recommend our consulting services to your colleagues?</i></p>
+        <input id="absolutely" name="answer-2" type="radio" value="absolutely">
+        <label for="absolutely">Absolutely!</label>
+        <input id="probably" name="answer-2" type="radio" value="probably">
+        <label for="probably">Probably</label>
+        <input id="never" name="answer-2" type="radio" value="never">
+        <label for="never">Never</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>Question 3:</b></legend>
+      <p><i>Where did you hear about us?</i></p>
+      <input id="linkedin" name="answer-3" type="checkbox" value="linkedin">
+      <label for="linkedin">LinkedIn</label>
+      <input id="youtube" name="answer-3" type="checkbox" value="youtube">
+      <label for="youtube">YouTube</label>
+      <input id="facebook" name="answer-3" type="checkbox" value="facebook">
+      <label for="facebook">Facebook</label>
+      <input id="instagram" name="answer-3" type="checkbox" value="instagram">
+      <label for="instagram">Instagram</label>
+      <input id="tiktok" name="answer-3" type="checkbox" value="tiktok">
+      <label for="tiktok">TikTok</label>
+      <input id="x" name="answer-3" type="checkbox" value="x">
+      <label for="x">X (Twitter)</label>
+      <input id="pinterest" name="answer-3" type="checkbox" value="pinterest">
+      <label for="pinterest">Pinterest</label>
+      <input id="website" name="answer-3" type="checkbox" value="website">
+      <label for="website">Our website</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>We want to hear you! Any comments or suggestions?</b></legend>
+        <textarea name="comments" cols="40" rows="10" placeholder="Write here! Feel free to say anything you want."></textarea>
+        <br>
+        <button type="submit" id="submit">Submit form</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
