@@ -1,0 +1,66 @@
+body {
+  background-color: 	#dbc1ac;
+  font-family: Arial, sans-serif
+}
+
+.business-card {
+  width: 300px;
+  background-color: #ece0d1;
+  padding: 20px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: center;
+  border: 3px solid #634832;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #634832;
+}
+
+.mail, .phone{
+ font-weight: bold;
+ font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-name {
+  font-size: 24px;
+  color: #634832;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.designation {
+  color: #634832;
+  font-style: italic;
+}
+
+.company {
+  color: #634832;
+  font-weight: bold;
+}
+
+.social-media h2 {
+  color: #634832;
+  font-family: Georgia, serif;
+  font-size: 18px;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #634832;
+  width: 80%;
+  margin: 20px auto;
+}
