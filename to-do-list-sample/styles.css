@@ -1,6 +1,5 @@
 a {
   text-decoration: none;
-
 }
 
 a:link{
@@ -26,6 +25,7 @@ a:visited{
 body{
   background-color: white;
   padding: 10px;
+  font-family: Arial, sans-serif;
 }
 
 .todo-list li{
@@ -52,4 +52,14 @@ body{
 
 h1{
   text-align: center;
+  color: white;
+}
+
+.container{
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #326ba8;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 2px;
 }
